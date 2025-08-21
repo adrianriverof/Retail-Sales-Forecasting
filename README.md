@@ -56,5 +56,12 @@ The model makes a prediction for the next day and then uses that prediction to e
 - [Execution script](https://github.com/adrianriverof/forecasting-retail/blob/master/03_Notebooks/03_System/09_Execution_code.py)
 
 
+## Installation
+
+Clone the repository and install dependencies:
+
+```bash
+conda env create -f 01_Documents/retail.yml
+conda activate retail
 
 
