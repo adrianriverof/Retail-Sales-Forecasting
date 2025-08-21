@@ -1,11 +1,11 @@
 
-# Retail Forecasting
+# Retail Sales Forecasting with Machine Learning
 <!--
 <img width="847" height="314" alt="sales202CA4" src="https://github.com/user-attachments/assets/99372e2e-a293-4817-9caa-119c3ea44344" />
 -->
 ## Overview
 
-This project develops state-of-the-art machine learning models (LightGBM) to predict sales for the next 8 days at a shop-product level, using 3 years of historical data from a large retailer. The system supports large-scale modeling, training multiple models in parallel.
+This project develops state-of-the-art machine learning models (**LightGBM**) to predict sales for the next 8 days at a shop-product level, using 3 years of historical data from a large retailer. The system supports large-scale modeling, training multiple models in parallel.
 
 
 ## Challenges faced
