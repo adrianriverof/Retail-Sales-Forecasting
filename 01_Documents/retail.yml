@@ -193,12 +193,15 @@ dependencies:
       - beautifulsoup4==4.13.4
       - bleach==6.2.0
       - category-encoders==2.6.2
+      - cmdstanpy==1.2.5
       - comm==0.2.3
       - debugpy==1.8.15
       - decorator==5.2.1
       - defusedxml==0.7.1
       - executing==2.2.0
       - fastjsonschema==2.21.1
+      - holidays==0.82
+      - importlib-resources==6.5.2
       - ipykernel==6.30.0
       - ipython==9.4.0
       - ipython-genutils==0.2.0
@@ -231,6 +234,7 @@ dependencies:
       - platformdirs==4.3.8
       - prometheus-client==0.22.1
       - prompt-toolkit==3.0.51
+      - prophet==1.1.7
       - psutil==7.0.0
       - ptyprocess==0.7.0
       - pure-eval==0.2.3
@@ -242,6 +246,7 @@ dependencies:
       - send2trash==1.8.3
       - soupsieve==2.7
       - stack-data==0.6.3
+      - stanio==0.5.1
       - terminado==0.18.1
       - tinycss2==1.4.0
       - traitlets==5.14.3
