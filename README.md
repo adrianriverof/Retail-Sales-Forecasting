@@ -28,12 +28,15 @@ The model makes a prediction for the next day and then uses that prediction to e
 
 ## Results
 
+#### Prophet baseline
+Using this model over [prophet](https://facebook.github.io/prophet/) improves the base prediction (before applying recursive forecasting): RMSE from 13.7 to 9.7 and MAE from 10.5 to 7.6
 
+#### Recursive forecasting
 <i>For context, the average daily sales per product is around 20 units (25th-75th percentile: 6-37), but it varies greatly and depends heavily on the product.
 </i>
 
-- 1-day forecast average absolute error of less than 6 units sold.
-- 8-day forecast average absolute error of 8.5 units sold.
+- 1-day forecast average MAE of less than 6 units sold.
+- 8-day forecast average MAE of 8.5 units sold.
 
 <i> These metrics are just very rough estimates, but it is safe to say that it provides an adequate prediction of overall demand trends.
 </i>
